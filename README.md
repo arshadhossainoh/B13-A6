@@ -9,7 +9,7 @@ Technology used:
 => Tailwind CSS
 => DailsyUI
 
-Why we stands out ?
+Why we stand out ?
 
 => offers many AI tools in one single platform
 => offers resonable prices
