@@ -21,10 +21,10 @@ const Banner = () => {
             Explore Products
           </p>
           <div className="md:flex">
-            <button className=" bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full mb-2 mr-3 p-5">
+            <button className=" bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full mb-2 mr-3 p-5 cursor-pointer hover:text-xl">
               Explore Products
             </button>
-            <button className="flex items-center text-purple-500 border border-purple-300 rounded-full p-5">
+            <button className="flex items-center text-purple-500 border border-purple-300 rounded-full p-5 cursor-pointer hover:text-xl">
               <img src={btnImg} alt="" />
               Watch Demo
             </button>

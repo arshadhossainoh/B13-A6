@@ -13,7 +13,7 @@ const GetStarted = () => {
         <p className="text-center font-light">
           Start using premium digital tools in minutes, not hours
         </p>
-        <div className="flex justify-around pt-5">
+        <div className=" pt-5 flex flex-col gap-5 items-center md:flex-row justify-around">
           <div className="bg-white  flex flex-col items-center h-60 w-60 rounded-md space-y-3 p-2">
             <button className="text-white rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] ml-50">
               01
