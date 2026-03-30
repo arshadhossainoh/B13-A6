@@ -7,12 +7,19 @@ import GetStarted from "./components/GetStarted";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 
+const getPlans = async () => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
+
+const planPromise = getPlans();
+
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Banner></Banner>
-      <DigitalProducts></DigitalProducts>
+      <DigitalProducts planPromise={planPromise}></DigitalProducts>
       <GetStarted></GetStarted>
       <Pricing></Pricing>
       <BeforeFooter></BeforeFooter>

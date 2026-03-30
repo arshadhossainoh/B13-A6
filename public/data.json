@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Basic access for individuals getting started.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "starter_icon"
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Advanced tools for professionals.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ templates", "ATS optimization", "Priority support"],
+    "icon": "pro_icon"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Plan",
+    "description": "Complete solution for teams and organizations.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Advanced analytics"
+    ],
+    "icon": "enterprise_icon"
+  },
+  {
+    "id": 4,
+    "name": "Basic One-Time",
+    "description": "One-time purchase for limited features.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Standard export", "Email support"],
+    "icon": "basic_once_icon"
+  },
+  {
+    "id": 5,
+    "name": "Premium Yearly",
+    "description": "Best value yearly subscription.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Unlimited downloads"],
+    "icon": "premium_yearly_icon"
+  },
+  {
+    "id": 6,
+    "name": "Student Plan",
+    "description": "Discounted plan for students.",
+    "price": 3,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["15+ templates", "Basic editing", "Watermark removal"],
+    "icon": "student_icon"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Pack",
+    "description": "Perfect for freelancers and gig workers.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["40+ templates", "Client export options", "Custom branding"],
+    "icon": "freelancer_icon"
+  },
+  {
+    "id": 8,
+    "name": "Team Bundle",
+    "description": "Bundle plan for small teams.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Shared workspace", "Team templates", "Admin controls"],
+    "icon": "team_icon"
+  },
+  {
+    "id": 9,
+    "name": "Lifetime Access",
+    "description": "Pay once and get lifetime access.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["All templates", "Future updates", "Premium support"],
+    "icon": "lifetime_icon"
+  }
+]
