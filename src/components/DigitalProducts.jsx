@@ -43,21 +43,6 @@ const DigitalProducts = ({
           Cart ({cart.length})
         </button>
       </div>
-      {/* <div className="flex justify-center gap-5 mb-10">
-        <button>Products</button>
-        <button>Cart(0)</button>
-      </div> */}
-
-      {/* <div className="tabs tabs-box justify-center bg-transparent"> */}
-      {/* <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab rounded-full w-40"
-          aria-label="Products"
-          value="products"
-          defaultChecked
-          onClick={() => setActiveTab("products")}
-        /> */}
 
       {/* <input
           type="radio"
@@ -71,13 +56,7 @@ const DigitalProducts = ({
           checked={activeTab === "products"}
           onClick={() => setActiveTab("products")}
         /> */}
-      {/* <input
-          type="radio"
-          name="my_tabs_1"
-          className="tab rounded-full w-40"
-          aria-label={`Cart (${cart.length})`}
-          onClick={() => setActiveTab("cart")}
-        /> */}
+
       {/* <input
           type="radio"
           name="my_tabs_1"

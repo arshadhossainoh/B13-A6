@@ -6,7 +6,7 @@ const ProductPlan = ({ plan, cart, setCart }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   const handleBuy = () => {
-    toast("added to cart !");
+    toast("Item added to cart !");
     setIsAddedToCart(!isAddedToCart);
     setCart([...cart, plan]);
   };

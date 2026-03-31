@@ -26,7 +26,7 @@ function App() {
   };
 
   const handleRemove = (item) => {
-    toast("removed from cart !");
+    toast("Item removed from cart !");
     const newCart = cart.filter((c) => c.id !== item.id);
     setCart(newCart);
   };
