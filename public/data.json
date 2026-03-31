@@ -8,7 +8,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["10+ templates", "Basic customization", "Export to PDF"],
-    "icon": "starter_icon"
+    "icon": "https://images.unsplash.com/photo-1556745757-8d76bdb6984b"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["50+ templates", "ATS optimization", "Priority support"],
-    "icon": "pro_icon"
+    "icon": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
       "Team collaboration",
       "Advanced analytics"
     ],
-    "icon": "enterprise_icon"
+    "icon": "https://images.unsplash.com/photo-1507679799987-c73779587ccf"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["20+ templates", "Standard export", "Email support"],
-    "icon": "basic_once_icon"
+    "icon": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&auto=format&fit=crop"
   },
   {
     "id": 5,
@@ -56,7 +56,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Unlimited downloads"],
-    "icon": "premium_yearly_icon"
+    "icon": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop"
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["15+ templates", "Basic editing", "Watermark removal"],
-    "icon": "student_icon"
+    "icon": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&auto=format&fit=crop"
   },
   {
     "id": 7,
@@ -78,7 +78,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["40+ templates", "Client export options", "Custom branding"],
-    "icon": "freelancer_icon"
+    "icon": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop"
   },
   {
     "id": 8,
@@ -89,7 +89,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Shared workspace", "Team templates", "Admin controls"],
-    "icon": "team_icon"
+    "icon": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop"
   },
   {
     "id": 9,
@@ -100,6 +100,6 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["All templates", "Future updates", "Premium support"],
-    "icon": "lifetime_icon"
+    "icon": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&auto=format&fit=crop"
   }
 ]
