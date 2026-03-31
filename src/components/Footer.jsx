@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="container mx-auto  bg-[#101727] ">
-      <div className=" w-[80%] mx-auto flex justify-between text-white p-10 ">
+      <div className=" w-[80%] mx-auto flex flex-col gap-3 md:flex-row justify-between text-white p-10 ">
         <div>
           <h1 className="text-2xl mb-2">DigiTools</h1>
           <p className="text-xs">

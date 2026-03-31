@@ -8,6 +8,7 @@ import GetStarted from "./components/GetStarted";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Cart from "./components/Cart";
+import { toast, ToastContainer } from "react-toastify";
 
 const getPlans = async () => {
   const res = await fetch("/data.json");
@@ -25,6 +26,7 @@ function App() {
   };
 
   const handleRemove = (item) => {
+    toast("removed from cart !");
     const newCart = cart.filter((c) => c.id !== item.id);
     setCart(newCart);
   };
@@ -54,6 +56,7 @@ function App() {
       <Pricing></Pricing>
       <BeforeFooter></BeforeFooter>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   );
 }

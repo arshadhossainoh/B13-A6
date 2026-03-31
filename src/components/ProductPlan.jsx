@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const ProductPlan = ({ plan, cart, setCart }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
   const handleBuy = () => {
+    toast("added to cart !");
     setIsAddedToCart(!isAddedToCart);
     setCart([...cart, plan]);
   };
